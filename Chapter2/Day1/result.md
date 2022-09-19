@@ -10,5 +10,6 @@
 
 >}
 
-**Result**/n
+**Result**
+
 ![](images/Cadence-c2d1.png)
