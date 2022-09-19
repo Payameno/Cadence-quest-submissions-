@@ -1,6 +1,6 @@
 ## Script Templates
 
-#Script
+**Script
 
 import MySecondContract from 0x03
 
@@ -10,5 +10,5 @@ pub fun main(): String {
 
 }
 
-#Result:
+**Result:
 ![](images/Cadence-c2d1.png)
