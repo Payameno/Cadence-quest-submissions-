@@ -2,13 +2,13 @@
 
 **Script**
 
-import MySecondContract from 0x03
+>import MySecondContract from 0x03
 
-pub fun main(): String {
+>pub fun main(): String {
 
-  return MySecondContract.message
+  >return MySecondContract.message
 
-}
+>}
 
 **Result**
 ![](images/Cadence-c2d1.png)
