@@ -11,3 +11,4 @@ pub fun main(): String {
 }
 
 #Result:
+![](images/Cadence-c2d1.png)
