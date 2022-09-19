@@ -1,4 +1,4 @@
-import MyThirdContract from 0x03
+import MyThirdContract from 0x01
 
 transaction(myNewNumber: Int) {
 
@@ -7,7 +7,7 @@ transaction(myNewNumber: Int) {
   execute {
     MyThirdContract.myNewNumber(newNumber: myNewNumber) {
     }
-    
+
   }
 
 }

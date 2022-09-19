@@ -1,15 +1,19 @@
 ## Script Templates
 
-**Script**
+**Transaction**
 
->import MySecondContract from 0x03
+>transaction(myNewNumber: Int) {
 
->pub fun main(): String {
+  >prepare(acct: AuthAccount) {}
 
-  >return MySecondContract.message
+  >execute {
+    >MyThirdContract.myNewNumber(newNumber: myNewNumber) {
+    >}
+
+  >}
 
 >}
 
-**Result**
+**Result - initial value(0) && After Transaction(09202022)**
 
-![](images/Cadence-c2d1.png)
+![](images/Chapter2Day2-transaction.png)

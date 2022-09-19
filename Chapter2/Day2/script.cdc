@@ -1,4 +1,4 @@
-import MyThirdContract from 0x03
+import MyThirdContract from 0x01
 
 pub fun main(): Int {
   return MyThirdContract.myNumber
