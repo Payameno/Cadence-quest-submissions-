@@ -1,8 +1,8 @@
 pub contract Fruit {
 
-  pub var apples: {appleName: nutritionFacts}
+  pub var apples: {String: Apple}
 
-  pub struct apple {
+  pub struct Apple {
     pub let name: String
     pub let carbs: Int
     pub let fat: Int
@@ -18,13 +18,15 @@ pub contract Fruit {
     }
   }
 
-  pub fun newApple() {
+  pub fun newApple(name: String, carbs: Int, fat: Int, protein: Int, sugar: Int) {
 
-    let newApple = apple(_name: name, _carbs: carbs, _fat: fat, _protein: protein, _sugar: sugar)
+    let newApple = Apple(_name: name, _carbs: carbs, _fat: fat, _protein: protein, _sugar: sugar)
     self.apples[name] = newApple
   
   }
 
-  self.apples = {}
+  init() {
+    self.apples = {}
+  }
 
 }

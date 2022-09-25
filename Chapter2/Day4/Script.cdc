@@ -1,5 +1,5 @@
-import Apple from 0x01
+import Fruit from 0x01
 
-pun main(): Fruit.apple {
+pub fun main(name: String): Fruit.Apple {
   return Fruit.apples[name]!
 }
